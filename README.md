@@ -12,23 +12,24 @@ A simple and customizable React component for creating tooltips.
 
 You can install the package using npm or yarn:
 
+### Using npm
 ```bash
-# Using npm
-npm install your-package-name
-
-# Using yarn
-yarn add your-package-name
+npm install react-custom-tooltip
+```
+### Using yarn
+```bash
+yarn add react-custom-tooltip
 ```
 
 ## Usage
 
 Once installed, you can start using the `Tooltip` component in your React project:
 
-    ```jsx
-    import React from "react";
-    import Tooltip from "./components/Tooltip";
+```js
+import React from "react";
+import Tooltip from "./components/Tooltip";
 
-    function App() {
+function App() {
     return (
         <div>
         <Tooltip text="This is a tooltip">
@@ -36,14 +37,14 @@ Once installed, you can start using the `Tooltip` component in your React projec
         </Tooltip>
         </div>
     );
-    }
+}
 
-    export default App;
-    ```
+export default App;
+```
 
 ## Development
 
-If you're working on the development of this project with Vite.js, follow these steps to set up your environment:
+If you're working on the development of this project with `Vite.js`, follow these steps to set up your environment:
 
 ### Prerequisites
 
@@ -51,30 +52,32 @@ Ensure you have Node.js and npm or yarn installed on your machine.
 
 ## Setting Up the Project
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/nitishkumar31/react-custom-tooltip.git
    cd react-custom-tooltip
    ```
 
-2. Install dependencies:
+2. **Install dependencies:**
 
    ```bash
-   Copy code
    npm install
-   # or
+   ```
+   or
+   ```bash
    yarn install
    ```
 
-3. Run the development server:
+4. **Run the development server:**
 
    - Vite.js provides a fast development server. Start it using:
 
      ```bash
-     Copy code
      npm run dev
-     # or
+     ```
+     or
+     ```bash
      yarn dev
      ```
 
@@ -85,9 +88,10 @@ This will start the development server, and you can access your app at `http://l
 To build the project for production, use the following command:
 
 ```bash
-Copy code
 npm run build
-# or
+```
+or
+```bash
 yarn build
 ```
 
@@ -98,9 +102,10 @@ This will generate a dist folder with your compiled application.
 If you have tests configured, you can run them using:
 
 ```bash
-Copy code
 npm run test
-# or
+```
+or
+```bash
 yarn test
 ```
 
@@ -119,7 +124,7 @@ We welcome contributions to this project! Here’s how you can get involved:
    - Clone your forked repository to your local machine:
 
      ```bash
-     git clone https://github.com/your-username/your-repo-name.git
+     git clone https://github.com/nitishkumar31/react-custom-tooltip.git
      cd your-repo-name
      ```
 
