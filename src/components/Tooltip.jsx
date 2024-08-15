@@ -1,16 +1,6 @@
 import { useState } from "react";
 
-/**
- * Tooltip component that displays a tooltip text when the user hovers over it.
- *
- * @component
- * @param {Object} props - The properties of the Tooltip component.
- * @param {ReactNode} props.children - The content of the Tooltip component.
- * @param {string} [props.position="top"] - The position of the tooltip relative to the child component.
- * @param {string} props.tooltipText - The text to be displayed in the tooltip.
- * @return {JSX.Element} The Tooltip component.
- */
-
+// Tooltip component that displays a tooltip text when the user hovers over it.
 const Tooltip = ({ children, position = "top", tooltipText }) => {
   // State to track the visibility of the tooltip
   const [isVisible, setIsVisible] = useState(false);
