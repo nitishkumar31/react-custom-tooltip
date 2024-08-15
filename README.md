@@ -125,7 +125,7 @@ We welcome contributions to this project! Here’s how you can get involved:
 
      ```bash
      git clone https://github.com/nitishkumar31/react-custom-tooltip.git
-     cd your-repo-name
+     cd react-custom-tooltip
      ```
 
 3. **Create a Branch:**
